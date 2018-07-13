@@ -19,7 +19,7 @@ MAINTAINER sudheer amgothu
 RUN apt-get update
 
 # Install necessary tools
-RUN apt-get install -y vim wget dialog net-tools awscli
+RUN apt-get install -y vim wget dialog net-tools awscli zip
 
 RUN apt-get install -y nginx
 
